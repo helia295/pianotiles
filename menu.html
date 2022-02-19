@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="menu.css">
+    <title>Piano Tiles</title>
+
+
+</head>
+
+<body>
+    <div id="menu_box" style="color:firebrick"> PIANO TILES</div>
+    <div class="menu" style="color:crimson">
+        <div class="container">
+            <div>Pick a song to play:</div>
+            <div class="song">
+
+                <div>1. FINNEAS - Let's Fall In Love For The Night</div>
+                <div>
+                    <div class="playbtn" onclick="reDirect(this.id)" id="FINNEAS - Let's Fall In Love For The Night (Official Audio)">Play</div>
+                </div>
+            </div>
+            <div class="song">
+
+                <div>2. Song 2</div>
+                <div class="playbtn">Play</div>
+            </div>
+            <div class="song">
+
+                <div>3. Song 3</div>
+                <div class="playbtn">Play</div>
+            </div>
+            <div class="song">
+
+                <div>4. Song 4</div>
+                <div class="playbtn">Play</div>
+            </div>
+            <div class="song">
+
+                <div>5. Song 5</div>
+                <div class="playbtn">Play</div>
+            </div>
+            <div class="song">
+
+                <div>6. Song 6</div>
+                <div class="playbtn">Play</div>
+            </div>
+            <div class="song">
+
+                <div>7. Song 7</div>
+                <div class="playbtn">Play</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function reDirect(Id) {
+            window.location.href = `index.html?songname=${Id}` 
+        }
+
+    </script>
+
+
+
+
+
+</body>
+
+</html>
